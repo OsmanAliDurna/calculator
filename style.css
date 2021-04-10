@@ -16,8 +16,9 @@ main {
 
 #calculator {
   background-color: black;
+  border-radius: 3rem;
   min-height: 60vh;
-  max-width: 50vh;
+  min-width: 25vw;
   display: grid;
   grid-template-rows: 2rem repeat(6, 1fr);
   grid-template-columns: repeat(4, 1fr);
@@ -32,7 +33,10 @@ main {
     "btn13 btn14 btn15 btn16"
     "btn17 btn17 btn18 btn19";
 }
+
 #processes {
+  outline: none;
+  border: none;
   background-color: black;
   color: white;
   text-align: right;
@@ -41,90 +45,135 @@ main {
 }
 
 #screen {
+  outline: none;
+  border: none;
   background-color: black;
   color: white;
   text-align: right;
-  font-size: 3rem;
+  font-size: 2rem;
   grid-area: screen;
 }
 
 #button {
+  outline: none;
   border-radius: 3rem;
-  font-size: 3rem;
+  font-size: 2.5rem;
+}
+
+#button:hover {
+  outline: none;
+  color: teal;
+  border-radius: 3rem;
+  font-size: 1.5rem;
 }
 
 .button1 {
+  background-color: grey;
   grid-area: btn1;
 }
 
 .button2 {
+  background-color: grey;
   grid-area: btn2;
 }
 
 .button3 {
+  background-color: grey;
   grid-area: btn3;
 }
 
 .button4 {
+  background-color: rgb(255, 115, 0);
+  color: white;
   grid-area: btn4;
 }
 
 .button5 {
+  background-color: rgb(54, 54, 54);
+  color: white;
   grid-area: btn5;
 }
 
 .button6 {
+  background-color: rgb(54, 54, 54);
+  color: white;
   grid-area: btn6;
 }
 
 .button7 {
+  background-color: rgb(54, 54, 54);
+  color: white;
   grid-area: btn7;
 }
 
 .button8 {
+  background-color: rgb(255, 115, 0);
+  color: white;
   grid-area: btn8;
 }
 
 .button9 {
+  background-color: rgb(54, 54, 54);
+  color: white;
   grid-area: btn9;
 }
 
 .button10 {
+  background-color: rgb(54, 54, 54);
+  color: white;
   grid-area: btn10;
 }
 
 .button11 {
+  background-color: rgb(54, 54, 54);
+  color: white;
   grid-area: btn11;
 }
 
 .button12 {
+  background-color: rgb(255, 115, 0);
+  color: white;
   grid-area: btn12;
 }
 
 .button13 {
+  background-color: rgb(54, 54, 54);
+  color: white;
   grid-area: btn13;
 }
 
 .button14 {
+  background-color: rgb(54, 54, 54);
+  color: white;
   grid-area: btn14;
 }
 
 .button15 {
+  background-color: rgb(54, 54, 54);
+  color: white;
   grid-area: btn15;
 }
 
 .button16 {
+  background-color: rgb(255, 115, 0);
+  color: white;
   grid-area: btn16;
 }
 
 .button17 {
+  background-color: rgb(54, 54, 54);
+  color: white;
   grid-area: btn17;
 }
 
 .button18 {
+  background-color: rgb(54, 54, 54);
+  color: white;
   grid-area: btn18;
 }
 
 .button19 {
+  background-color: rgb(255, 115, 0);
+  color: white;
   grid-area: btn19;
 }
